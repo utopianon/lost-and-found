@@ -58,6 +58,39 @@ public class ProfileManager : MonoBehaviour
         }
     }
 
+    public void MoveBack()
+    {
+        if (suitorCounter <= 0)
+        {
+            currentSuitor = objectsList[objectsList.Count - 1];
+        }
+        else
+        {
+            currentSuitor = objectsList[objectsList.IndexOf(currentSuitor) - 1];
+        }
+
+        updateSuitor();
+    }
+
+    public void MoveNext()
+    {
+        if (suitorCounter >= objectsList.Count - 1)
+        {
+            currentSuitor = objectsList[0];
+        }
+        else
+        {
+            currentSuitor = objectsList[objectsList.IndexOf(currentSuitor) + 1];
+        }
+
+        updateSuitor();
+    }
+
+    public void ButtonMatch()
+    {
+        Match();
+    }
+
     void Start()
     {
         PickCustomer();
@@ -68,30 +101,12 @@ public class ProfileManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            if (suitorCounter <= 0)
-            {
-                currentSuitor = objectsList[objectsList.Count - 1];
-            }
-            else
-            {
-                currentSuitor = objectsList[objectsList.IndexOf(currentSuitor) - 1];
-            }
-
-            updateSuitor();
+            MoveBack();
         }
 
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            if (suitorCounter >= objectsList.Count - 1)
-            {
-                currentSuitor = objectsList[0];
-            }
-            else
-            {
-                currentSuitor = objectsList[objectsList.IndexOf(currentSuitor) + 1];
-            }
-
-            updateSuitor();
+            MoveNext();
         }
 
         if (Input.GetKeyDown(KeyCode.Space))
