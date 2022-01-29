@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d3e916bd45d0dd418092672d5a13cc7, type: 3}
-  m_Name: New Object
+  m_Name: Gorp
   m_EditorClassIdentifier: 
-  name: NOBJECT
+  name: Gorp
   picture: {fileID: 0}
   Description: 
-  match: {fileID: 11400000, guid: a2d5002d1d807f747922d96f8dbd020b, type: 2}
+  match: {fileID: 11400000, guid: fc8689d9e4f6ef34a894269500b1eed2, type: 2}

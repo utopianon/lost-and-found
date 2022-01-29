@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d3e916bd45d0dd418092672d5a13cc7, type: 3}
-  m_Name: New Object
+  m_Name: Clap
   m_EditorClassIdentifier: 
-  name: NOBJECT
+  name: Clap
   picture: {fileID: 0}
   Description: 
-  match: {fileID: 11400000, guid: a2d5002d1d807f747922d96f8dbd020b, type: 2}
+  match: {fileID: 11400000, guid: c4862b0f0a0d04fe094429dfe0c8cae2, type: 2}
