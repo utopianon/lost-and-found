@@ -375,32 +375,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!21 &462559795
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/CrtPostProcess
-  m_Shader: {fileID: 4800000, guid: 6bdbe3c9db965ab439c500815bf786b4, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors: []
-  m_BuildTextureStacks: []
 --- !u!20 &519420031 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 5286515302643028994, guid: 11766f2dba6a76b43bad5cbfcb7ec7b7, type: 3}
@@ -639,6 +613,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1062022614}
   m_CullTransparentMesh: 1
+--- !u!21 &1335895478
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/CrtPostProcess
+  m_Shader: {fileID: 4800000, guid: 6bdbe3c9db965ab439c500815bf786b4, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
 --- !u!4 &1805295715 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8526456391077264330, guid: d739763d045fc214b90a1f09fb035c52, type: 3}
@@ -800,15 +800,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5286515302643028995, guid: 11766f2dba6a76b43bad5cbfcb7ec7b7, type: 3}
       propertyPath: bend
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5286515302643028995, guid: 11766f2dba6a76b43bad5cbfcb7ec7b7, type: 3}
       propertyPath: material
       value: 
-      objectReference: {fileID: 462559795}
+      objectReference: {fileID: 1335895478}
     - target: {fileID: 5286515302643028995, guid: 11766f2dba6a76b43bad5cbfcb7ec7b7, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5286515302643028995, guid: 11766f2dba6a76b43bad5cbfcb7ec7b7, type: 3}
+      propertyPath: noiseAmount
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 5286515302643028995, guid: 11766f2dba6a76b43bad5cbfcb7ec7b7, type: 3}
+      propertyPath: redOffset.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5286515302643028995, guid: 11766f2dba6a76b43bad5cbfcb7ec7b7, type: 3}
+      propertyPath: greenOffset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5286515302643028995, guid: 11766f2dba6a76b43bad5cbfcb7ec7b7, type: 3}
+      propertyPath: scanlineSize1
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5286515302643028995, guid: 11766f2dba6a76b43bad5cbfcb7ec7b7, type: 3}
+      propertyPath: scanlineSize2
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5286515302643028995, guid: 11766f2dba6a76b43bad5cbfcb7ec7b7, type: 3}
+      propertyPath: scanlineAmount
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 5286515302643028995, guid: 11766f2dba6a76b43bad5cbfcb7ec7b7, type: 3}
+      propertyPath: scanlineSpeed1
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5286515302643028995, guid: 11766f2dba6a76b43bad5cbfcb7ec7b7, type: 3}
+      propertyPath: scanlineSpeed2
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5286515302643029245, guid: 11766f2dba6a76b43bad5cbfcb7ec7b7, type: 3}
       propertyPath: m_RootOrder
