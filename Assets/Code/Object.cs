@@ -8,4 +8,6 @@ public class Object : ScriptableObject
     public string name;
     public Sprite picture;
     public string Description;
+
+    public Object match;
 }

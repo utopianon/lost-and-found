@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d3e916bd45d0dd418092672d5a13cc7, type: 3}
-  m_Name: Taxidermized Bichon Frise
+  m_Name: Hairbursh
   m_EditorClassIdentifier: 
-  name: Taxidermied Bichon Frize
-  picture: {fileID: 21300000, guid: 7d36391d30a75459cbcbf41f56a40515, type: 3}
-  Description: Dog?
-  match: {fileID: 11400000, guid: 84332532faff7554db61cf08b54ef3b4, type: 2}
+  name: hairbrush
+  picture: {fileID: 21300000, guid: da9d31cb3f5e8447fa194647e07d465d, type: 3}
+  Description: likes it rough
+  match: {fileID: 11400000, guid: b69a7179ab04f014882a4078aad9e29f, type: 2}
