@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2307003547533569455}
+  - component: {fileID: 1065540837}
   m_Layer: 0
   m_Name: GameMaster
   m_TagString: Untagged
@@ -30,3 +31,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1065540837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5161296035055058316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d305b3f8e6a0c643bda9ac5f1fcdf3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CustomerProfile: {fileID: 0}
+  SuitorProfile: {fileID: 0}
+  currentCustomer: {fileID: 0}
+  currentSuitor: {fileID: 0}
+  objectsList:
+  - {fileID: 11400000, guid: 84332532faff7554db61cf08b54ef3b4, type: 2}
+  - {fileID: 11400000, guid: d11d07148163a0f42a7c94b623355af5, type: 2}
+  - {fileID: 11400000, guid: 60bda6281e5ea4275b6ce3f675321c35, type: 2}
+  - {fileID: 11400000, guid: 1c46973e573ed416391b10c8c8d44e51, type: 2}

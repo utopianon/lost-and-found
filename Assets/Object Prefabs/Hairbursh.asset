@@ -15,4 +15,4 @@ MonoBehaviour:
   name: hairbrush
   picture: {fileID: 21300000, guid: da9d31cb3f5e8447fa194647e07d465d, type: 3}
   Description: likes it rough
-  match: {fileID: 11400000, guid: b69a7179ab04f014882a4078aad9e29f, type: 2}
+  match: {fileID: 11400000, guid: 60bda6281e5ea4275b6ce3f675321c35, type: 2}

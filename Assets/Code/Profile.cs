@@ -7,11 +7,6 @@ using TMPro;
 public class Profile : MonoBehaviour
 {
     [SerializeField]
-    private Object currentObj;
-    [SerializeField]
-    private List<Object> objectsList = new List<Object>();
-
-    [SerializeField]
     private GameObject nameField;
     [SerializeField]
     private GameObject bioField;
@@ -21,66 +16,32 @@ public class Profile : MonoBehaviour
 
     private int pointer;
 
-    private void SetNameField()
+    private void SetNameField(Object _currentObj)
     {
-        nameField.GetComponentInChildren<TMP_Text>().text = currentObj.name;
+        nameField.GetComponentInChildren<TMP_Text>().text = _currentObj.name;
     }
 
-    private void SetBioField()
+    private void SetBioField(Object _currentObj)
     {
-        bioField.GetComponentInChildren<TMP_Text>().text = currentObj.Description;
+        bioField.GetComponentInChildren<TMP_Text>().text = _currentObj.Description;
     }
 
-    private void SetPic()
+    private void SetPic(Object _currentObj)
     {
-        picField.GetComponent<Image>().sprite = currentObj.picture;
+        picField.GetComponent<Image>().sprite = _currentObj.picture;
     }
 
-    private void UpdatedInfo()
-    {
-        SetNameField();
-        SetBioField();
-        SetPic();
-        pointer = objectsList.IndexOf(currentObj);
-    }
-    void Start()
-    {
-        if (currentObj == null)
-            currentObj = objectsList[0];
-
-
-
-        UpdatedInfo();
+    public void SetCurrentObject(Object _currentObj)
+    {     
+        UpdateInfo(_currentObj);
     }
 
-    private void Update()
+    private void UpdateInfo(Object _currentObj)
     {
-        if (Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            if (pointer <= 0)
-            {
-                currentObj = objectsList[objectsList.Count - 1];
-            }
-            else
-            {
-                currentObj = objectsList[objectsList.IndexOf(currentObj)-1];
-            }
-
-            UpdatedInfo();
-        }
-
-        if (Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            if (pointer >= objectsList.Count-1)
-            {
-                currentObj = objectsList[0];
-            }
-            else
-            {
-                currentObj = objectsList[objectsList.IndexOf(currentObj) + 1];
-            }
-
-            UpdatedInfo();
-        }
+        SetNameField(_currentObj);
+        SetBioField(_currentObj);
+        SetPic(_currentObj);
     }
+   
+    
 }

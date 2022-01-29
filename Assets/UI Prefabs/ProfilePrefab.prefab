@@ -35,7 +35,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -153, y: -112.41}
+  m_AnchoredPosition: {x: -153, y: -28}
   m_SizeDelta: {x: 8905.768, y: 4381.482}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5191525006245489008
@@ -423,7 +423,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 61.224, y: 149}
+  m_AnchoredPosition: {x: 61.224, y: 147.41003}
   m_SizeDelta: {x: 4402.719, y: 1255.516}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8541674305945768107
@@ -717,11 +717,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6f21cc6cb0e19a489c6de0a31a170ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentObj: {fileID: 11400000, guid: 84332532faff7554db61cf08b54ef3b4, type: 2}
-  objectsList:
-  - {fileID: 11400000, guid: 84332532faff7554db61cf08b54ef3b4, type: 2}
-  - {fileID: 11400000, guid: b69a7179ab04f014882a4078aad9e29f, type: 2}
-  - {fileID: 11400000, guid: d11d07148163a0f42a7c94b623355af5, type: 2}
   nameField: {fileID: 5282322709524617203}
   bioField: {fileID: 9169225883158695195}
   picField: {fileID: 3964943419110759326}
@@ -760,7 +755,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -97, y: -131.41}
+  m_AnchoredPosition: {x: -97, y: -26}
   m_SizeDelta: {x: 4694.652, y: 4343.481}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4064202993727403028
