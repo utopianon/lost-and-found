@@ -143,8 +143,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Holpert
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4325805b6b40c4ea69380a5545a97b6b, type: 2}
+  m_sharedMaterial: {fileID: 4458053183490208810, guid: 4325805b6b40c4ea69380a5545a97b6b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -530,8 +530,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4325805b6b40c4ea69380a5545a97b6b, type: 2}
+  m_sharedMaterial: {fileID: 4458053183490208810, guid: 4325805b6b40c4ea69380a5545a97b6b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
