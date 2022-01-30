@@ -286,6 +286,32 @@ Camera:
   m_CorrespondingSourceObject: {fileID: 5286515302643028994, guid: 11766f2dba6a76b43bad5cbfcb7ec7b7, type: 3}
   m_PrefabInstance: {fileID: 5286515302333541501}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &691589311
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/CrtPostProcess
+  m_Shader: {fileID: 4800000, guid: 6bdbe3c9db965ab439c500815bf786b4, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
 --- !u!1 &935631848
 GameObject:
   m_ObjectHideFlags: 0
@@ -513,32 +539,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1253212248}
   m_CullTransparentMesh: 1
---- !u!21 &1678895089
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/CrtPostProcess
-  m_Shader: {fileID: 4800000, guid: 6bdbe3c9db965ab439c500815bf786b4, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors: []
-  m_BuildTextureStacks: []
 --- !u!114 &2140482956 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 762629977480322040, guid: 538b8b9fc7ef57f46a3edfc8d25975e5, type: 3}
@@ -910,6 +910,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4630602316145359300, guid: 5540cdc04ff0d704e8db306e6ca8fba8, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 519420031}
     - target: {fileID: 4630602316158487566, guid: 5540cdc04ff0d704e8db306e6ca8fba8, type: 3}
       propertyPath: m_Name
       value: Email
