@@ -28,13 +28,12 @@ public class Email
         body = _body;
     }
 
-    public Email(string _address, string _subject, Sprite _picture, Object _object1, Object _object2, DateType _dateType)
+    public Email(string _address, string _subject, Object _object1, Object _object2, DateType _dateType)
     {
         emailType = EmailType.date;
         dateType = _dateType;
         address = _address;
         subject = _subject;
-        picture = _picture;
         object1 = _object1;
         object2 = _object2;
     }   

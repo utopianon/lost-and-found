@@ -58,9 +58,9 @@ public class ProfileManager : MonoBehaviour
             }
             else
             {
-                currentCustomer = null;
                 emailManager.generateEmail(EmailType.evening);
                 emailManager.generateEmail(EmailType.morning, DateType.good);
+                emailManager.generateEmail(DateType.good, currentCustomer, currentSuitor);
                 objectsList.Remove(currentSuitor);
             }
 
@@ -68,11 +68,11 @@ public class ProfileManager : MonoBehaviour
         }
         else
         {
-            objectsList.Add(currentCustomer);
-            currentCustomer = null;
             emailManager.generateEmail(EmailType.evening);
             emailManager.generateEmail(EmailType.morning, DateType.bad);
+            emailManager.generateEmail(DateType.bad, currentCustomer, currentSuitor);
             Debug.Log("not a proper match");
+            objectsList.Add(currentCustomer);
         }
 
         emailManager.displayEmail();

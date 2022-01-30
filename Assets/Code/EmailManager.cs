@@ -88,7 +88,8 @@ public class EmailManager : MonoBehaviour
 
     public void generateEmail(DateType dateType, Object _object1, Object _object2)
     {
-
+        Email email = new Email(bossEmail, dateSubject, _object1, _object2, dateType);
+        emailQueue.Enqueue(email);
     }
 
     public void displayEmail()
@@ -99,17 +100,33 @@ public class EmailManager : MonoBehaviour
         {
             emailUI.DisplayTextEmail(currentEmail.address, currentEmail.subject, currentEmail.body);
         }
+        else
+        {
+            emailUI.DisplayPictureEmail(currentEmail.address, currentEmail.subject, currentEmail.dateType, currentEmail.object1, currentEmail.object2);
+        }
 
     }
 
     public void PopEmail()
     {
+        if (emailQueue.Count != 0)
+            displayEmail();
+        else
+        {
+            emailUI.Close();
+        }
 
     }
 
 
     private void Update()
     {
-       
+       if (emailUI.popUpActive)
+        {
+            if (Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                PopEmail();
+            }
+        }
     }
 }

@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2307003547533569455}
   - component: {fileID: 1065540837}
   - component: {fileID: 400916734}
-  - component: {fileID: 9104262473180312723}
   m_Layer: 0
   m_Name: GameMaster
   m_TagString: Untagged
@@ -95,31 +94,5 @@ MonoBehaviour:
   endOfGameBody: "We\u2019ve found matches for all our lost hearts. Love blossoms
     and abounds. Yet victims of our own success, the agency must close. However,
     don\u2019t despair, because love can always be find in those around us. "
-  emailUI: {fileID: 0}
-  active: 0
---- !u!114 &9104262473180312723
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5161296035055058316}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 387d575e9488e9c49a98543d4188e3a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bossEmail: 
-  introSubject: 
-  introBody: 
-  morningGoodSubject: 
-  morningBadSubject: 
-  morningGoodDate: 
-  morningBadDate: 
-  endOfDaySubject: 
-  endOfDayBody: 
-  dateSubject: 
-  endOfGameSubject: 
-  endOfGameBody: 
   emailUI: {fileID: 0}
   active: 0
