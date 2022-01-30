@@ -41,7 +41,7 @@ public class EmailManager : MonoBehaviour
 
     public void generateEmail(EmailType _type, DateType _date = DateType.good)
     {
-        Email temp;
+        Email temp = new Email();
 
         switch (_type)
         {
@@ -56,8 +56,8 @@ public class EmailManager : MonoBehaviour
                 break;
             case EmailType.evening:
                 {
-                    temp = new Email(bossEmail, endOfDaySubject, endOfDayBody, _type);
-                    emailQueue.Enqueue(temp);
+                    Email email = new Email(bossEmail, endOfDaySubject, endOfDayBody, _type);
+                    emailQueue.Enqueue(email);
 
                 }
                 break;
@@ -109,9 +109,6 @@ public class EmailManager : MonoBehaviour
 
     private void Update()
     {
-        if ()
-        {
-
-        }
+       
     }
 }

@@ -7,6 +7,7 @@ public class ProfileManager : MonoBehaviour
 {
     public Profile CustomerProfile;
     public Profile SuitorProfile;
+    private EmailManager emailManager;
 
 
     [SerializeField]
@@ -58,7 +59,8 @@ public class ProfileManager : MonoBehaviour
             else
             {
                 currentCustomer = null;
-                //send email
+                emailManager.generateEmail(EmailType.evening);
+                emailManager.generateEmail(EmailType.morning, DateType.good);
                 objectsList.Remove(currentSuitor);
             }
 
@@ -68,10 +70,12 @@ public class ProfileManager : MonoBehaviour
         {
             objectsList.Add(currentCustomer);
             currentCustomer = null;
-            //send email
+            emailManager.generateEmail(EmailType.evening);
+            emailManager.generateEmail(EmailType.morning, DateType.bad);
             Debug.Log("not a proper match");
         }
 
+        emailManager.displayEmail();
         PickCustomer();
     }
 
@@ -110,6 +114,7 @@ public class ProfileManager : MonoBehaviour
 
     void Start()
     {
+        emailManager = GetComponent<EmailManager>();
         PickCustomer();
 
     }

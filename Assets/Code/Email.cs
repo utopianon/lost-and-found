@@ -16,9 +16,13 @@ public class Email
     public DateType dateType;
 
 
+    public Email()
+    {
 
+    }
     public Email (string _address, string _subject, string _body, EmailType _emailType)
     {
+        Debug.Log("creating new emoil");
         subject = _subject;
         address = _address;
         body = _body;
