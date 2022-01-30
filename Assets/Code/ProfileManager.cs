@@ -8,7 +8,7 @@ public class ProfileManager : MonoBehaviour
     public Profile CustomerProfile;
     public Profile SuitorProfile;
 
-  
+
     [SerializeField]
     private Object currentCustomer;
     [SerializeField]
@@ -18,7 +18,7 @@ public class ProfileManager : MonoBehaviour
     private List<Object> objectsList = new List<Object>();
 
     private int suitorCounter;
-    
+
 
 
     private void PickCustomer()
@@ -26,7 +26,7 @@ public class ProfileManager : MonoBehaviour
         int randomCustomer = Random.Range(0, objectsList.Count - 1);
         currentCustomer = objectsList[randomCustomer];
         objectsList.Remove(currentCustomer);
-       List<Object> shuffledList = objectsList.OrderBy(x => Random.value).ToList();
+        List<Object> shuffledList = objectsList.OrderBy(x => Random.value).ToList();
         objectsList = shuffledList;
         suitorCounter = 0;
         currentSuitor = objectsList[0];
@@ -38,7 +38,7 @@ public class ProfileManager : MonoBehaviour
     {
         CustomerProfile.SetCurrentObject(currentCustomer);
         updateSuitor();
-       
+
     }
     private void updateSuitor()
     {
@@ -50,12 +50,29 @@ public class ProfileManager : MonoBehaviour
     {
         if (currentCustomer.match.name == currentSuitor.name)
         {
+            if (objectsList.Count <= 2)
+            {
+                //end game
+                Debug.Log("end of game!!");
+            }
+            else
+            {
+                currentCustomer = null;
+                //send email
+                objectsList.Remove(currentSuitor);
+            }
+
             Debug.Log("succesful match!");
         }
         else
         {
+            objectsList.Add(currentCustomer);
+            currentCustomer = null;
+            //send email
             Debug.Log("not a proper match");
         }
+
+        PickCustomer();
     }
 
     public void MoveBack()
@@ -94,7 +111,7 @@ public class ProfileManager : MonoBehaviour
     void Start()
     {
         PickCustomer();
-             
+
     }
 
     private void Update()

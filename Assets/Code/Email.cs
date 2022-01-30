@@ -3,41 +3,36 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Email : MonoBehaviour
-{
-    [SerializeField]
-    private GameObject emailPrefab;
-    [SerializeField]
-    private GameObject emailField;
-    [SerializeField]
-    private GameObject subjectField;
-    [SerializeField]
-    private GameObject emailBody;
 
-    public string bossEmailAdress;
-    public string endOfDaySubject;
+public class Email
+{  
+    public string address;
+    public string subject;
+    public string body;
+    public Sprite picture;
+    public Object object1;
+    public Object object2;
+    public EmailType emailType;
+    public DateType dateType;
 
-    public void PopUp()
+
+
+    public Email (string _address, string _subject, string _body, EmailType _emailType)
     {
-        //turn gameObjectOn at top of sorting order
-        //may do a scale/transform animation
+        subject = _subject;
+        address = _address;
+        body = _body;
     }
 
-    public void SetEmail()
+    public Email(string _address, string _subject, Sprite _picture, Object _object1, Object _object2, DateType _dateType)
     {
-        emailField.GetComponentInChildren<TMP_Text>().text = bossEmailAdress;
-    }
-
-    public void SetSubject()
-    {
-
-        emailField.GetComponentInChildren<TMP_Text>().text = endOfDaySubject;
-
-    }
-
-    public virtual void SetBody()
-    {
-
-    }
+        emailType = EmailType.date;
+        dateType = _dateType;
+        address = _address;
+        subject = _subject;
+        picture = _picture;
+        object1 = _object1;
+        object2 = _object2;
+    }   
 
 }
