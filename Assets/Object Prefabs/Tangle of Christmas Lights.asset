@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Tangle of Christmas Lights
   picture: {fileID: 21300000, guid: d5394c8aa662242d2b3b6abdf7c0615b, type: 3}
-  Description: Tired of short-term flings. Only looking for a something that could
-    turn into something more. Looking to get away from old routines. Hoping for something
-    understanding and that recognises life can be filled with twists and turns.
+  Description: Tired of short-term flings. Need something that could turn into something
+    more. Want to get away from old routines with something understanding that recognises
+    life can be filled with twists and turns.
   match: {fileID: 11400000, guid: eb3c0ac432b28f84888c520272c5c832, type: 2}

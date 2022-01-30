@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Stringless Guitar
   picture: {fileID: 21300000, guid: f47f0992621ee45ffb32a0c8fd1aedc8, type: 3}
-  Description: "Thought it was better to burn out than to fade away, but now I\u2019m
-    not so sure. Old rocker looking to rekindle the magic with something that knows
-    the even hard times can be beautiful. Open to something open. But even though
-    it\u2019s getting late, let\u2019s take it slow."
+  Description: "Thought it was better to burn out than to fade away. Now I\u2019m
+    not so sure. Looking to rekindle the spark and know that even hard times can
+    be beautiful. Though it\u2019s getting late, let\u2019s take it slow."
   match: {fileID: 11400000, guid: d11d07148163a0f42a7c94b623355af5, type: 2}

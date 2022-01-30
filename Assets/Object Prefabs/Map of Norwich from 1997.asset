@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Map of Norwich from 1997
   picture: {fileID: 21300000, guid: c98771f57256f4943b551e6a01b58338, type: 3}
-  Description: Lost heart seeking to find its way home. Do you ever know exactly
-    where you are, but also feel completely lost? Looking for something to drift
-    through life with and to discover unknown destinations.
+  Description: Do you ever know exactly where you are, but feel completely lost?
+    Looking for something to drift through life with and to discover unknown destinations.
+    Lost heart seeking to find its way home.
   match: {fileID: 11400000, guid: c4862b0f0a0d04fe094429dfe0c8cae2, type: 2}
