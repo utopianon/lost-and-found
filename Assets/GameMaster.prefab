@@ -73,10 +73,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bossEmail: eros@lost&found.luv
   introSubject: Welcome to Lost and Found!
-  introBody: "Welcome to your first day at Lost & Found Dating Agency\u2122, where
-    forgotten objects find a perfect home. Your job is to help each customer find
-    a happy match. Use your romantic intuition, but remember, love comes in all forms,
-    and it doesn\u2019t follow laws."
+  introBody: "Welcome to Lost & Found Dating Agency, where forgotten objects find
+    a perfect home. You\u2019ll need to make items of each of our wonderful objects.
+    Use your romantic intuition, but remember, love comes in all forms, and it doesn\u2019t
+    always follow the rules."
   morningGoodSubject: Love is in the air!
   morningBadSubject: They suffer least those who suffer what they choose!
   morningGoodDate: "We\u2019ve been lucky in love indeed! Thanks to us, cupid\u2019s
