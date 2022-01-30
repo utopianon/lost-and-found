@@ -22,7 +22,6 @@ public class EmailManager : MonoBehaviour
     public string introSubject;
     public string introBody;
     public string morningSubject;
-    public string morningBody;
     public string morningGoodDate;
     public string morningBadDate;
     public string endOfDaySubject;
@@ -97,7 +96,7 @@ public class EmailManager : MonoBehaviour
 
         if (currentEmail.emailType != EmailType.date)
         {
-
+            emailUI.DisplayTextEmail(currentEmail.address, currentEmail.subject, currentEmail.body);
         }
 
     }
@@ -110,7 +109,7 @@ public class EmailManager : MonoBehaviour
 
     private void Update()
     {
-        if (active)
+        if ()
         {
 
         }

@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2307003547533569455}
   - component: {fileID: 1065540837}
+  - component: {fileID: 400916734}
   m_Layer: 0
   m_Name: GameMaster
   m_TagString: Untagged
@@ -58,3 +59,29 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c4862b0f0a0d04fe094429dfe0c8cae2, type: 2}
   - {fileID: 11400000, guid: f62cf8c9a34b345d09a8bae6dd7d7f49, type: 2}
   - {fileID: 11400000, guid: 9b6e7a1e902ae4f7e80687a5fc27c8b4, type: 2}
+--- !u!114 &400916734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5161296035055058316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387d575e9488e9c49a98543d4188e3a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bossEmail: email@email.gov
+  introSubject: welcum
+  introBody: welcummmm
+  morningSubject: god morng
+  morningBody: its literally morg
+  morningGoodDate: yesterday was neat
+  morningBadDate: yesterday was unneat
+  endOfDaySubject: go home
+  endOfDayBody: seriously leave
+  dateSubject: check out these pigeons
+  endOfGameSubject: we done
+  endOfGameBody: we done here leave the page
+  emailUI: {fileID: 0}
+  active: 0

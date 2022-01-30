@@ -22,6 +22,8 @@ public class EmailDisplay : MonoBehaviour
     [SerializeField]
     private GameObject spriteB;
 
+    public bool popUpActive;
+
     public void DisplayTextEmail(string address, string subject, string body)
     {
         SetBody(body);
@@ -55,11 +57,13 @@ public class EmailDisplay : MonoBehaviour
     public void PopUp()
     {
         canvas.SetActive(true);
+        popUpActive = true;
     }
 
     public void Close()
     {
         canvas.SetActive(true);
+        popUpActive = false;
     }
 
 }
