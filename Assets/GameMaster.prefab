@@ -82,11 +82,11 @@ MonoBehaviour:
   morningGoodDate: "We\u2019ve been lucky in love indeed! Thanks to us, cupid\u2019s
     arrow found a new target last night. Items that once were lost, have now been
     found (some even found themselves bound!)."
-  morningBadDate: "Sadly, we weren\u2019t able to help any of our objects find love
-    yesterday. However, don\u2019t despair. Today is a new day. I\u2019m sure you\u2019ll
-    find a better love, they\u2019re all too easy to find."
+  morningBadDate: "Sadly, none of our objects found love last night. However, don\u2019t
+    despair. Today is a new day. I\u2019m sure you\u2019ll find them a better love,
+    it\u2019s all too easy to find."
   endOfDaySubject: See you tomorrow!
-  endOfDayBody: "We hope that cupid\u2019s arrow found its targets today. Regardless,
+  endOfDayBody: "We hope that cupid\u2019s arrow found its target today. Regardless,
     it\u2019s time to leave for today. We\u2019ll see you bright and early tomorrow
     for more matches made in heaven."
   dateSubject: Could romance be in the air?
