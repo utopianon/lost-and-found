@@ -262,7 +262,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1065540837, guid: ffaf34b3d04c50e4ca6da2de2a26070a, type: 3}
   m_PrefabInstance: {fileID: 3653819895993642035}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 400916733}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d305b3f8e6a0c643bda9ac5f1fcdf3a, type: 3}
@@ -389,37 +389,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &400916733 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5161296035055058316, guid: ffaf34b3d04c50e4ca6da2de2a26070a, type: 3}
-  m_PrefabInstance: {fileID: 3653819895993642035}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &400916734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 400916733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 387d575e9488e9c49a98543d4188e3a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bossEmail: 
-  introSubject: 
-  introBody: 
-  morningGoodSubject: 
-  morningBadSubject: 
-  morningGoodDate: 
-  morningBadDate: 
-  endOfDaySubject: 
-  endOfDayBody: 
-  dateSubject: 
-  endOfGameSubject: 
-  endOfGameBody: 
-  emailUI: {fileID: 0}
-  active: 0
 --- !u!1 &510790606
 GameObject:
   m_ObjectHideFlags: 0
@@ -1529,7 +1498,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1638058188}
   m_CullTransparentMesh: 1
---- !u!21 &2014567385
+--- !u!21 &2033972127
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -1747,7 +1716,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 687942992737949901, guid: 538b8b9fc7ef57f46a3edfc8d25975e5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 133.64403
+      value: 133.64404
       objectReference: {fileID: 0}
     - target: {fileID: 1035931781935822753, guid: 538b8b9fc7ef57f46a3edfc8d25975e5, type: 3}
       propertyPath: m_Camera
@@ -1895,6 +1864,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 400916734, guid: ffaf34b3d04c50e4ca6da2de2a26070a, type: 3}
+      propertyPath: emailUI
+      value: 
+      objectReference: {fileID: 7434543733722280753}
     - target: {fileID: 1065540837, guid: ffaf34b3d04c50e4ca6da2de2a26070a, type: 3}
       propertyPath: SuitorProfile
       value: 
@@ -2138,10 +2111,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Email
       objectReference: {fileID: 0}
-    - target: {fileID: 4630602316158487566, guid: 5540cdc04ff0d704e8db306e6ca8fba8, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4630602316158487567, guid: 5540cdc04ff0d704e8db306e6ca8fba8, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -2188,3 +2157,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5540cdc04ff0d704e8db306e6ca8fba8, type: 3}
+--- !u!114 &7434543733722280753 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 814829152, guid: 5540cdc04ff0d704e8db306e6ca8fba8, type: 3}
+  m_PrefabInstance: {fileID: 7434543733722280752}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3564b1b5bd4750049b80c873fc79a73d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
