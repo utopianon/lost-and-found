@@ -59,6 +59,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c4862b0f0a0d04fe094429dfe0c8cae2, type: 2}
   - {fileID: 11400000, guid: f62cf8c9a34b345d09a8bae6dd7d7f49, type: 2}
   - {fileID: 11400000, guid: 9b6e7a1e902ae4f7e80687a5fc27c8b4, type: 2}
+  EndGame: 0
 --- !u!114 &400916734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73,10 +74,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bossEmail: eros@lost&found.luv
   introSubject: Welcome to Lost and Found!
-  introBody: "Welcome to Lost & Found Dating Agency, where forgotten objects find
-    a perfect home. You\u2019ll need to make items of each of our wonderful objects.
-    Use your romantic intuition, but remember, love comes in all forms, and it doesn\u2019t
-    always follow the rules."
+  introBody: "Welcome to Lost & Found Dating Agency\u2122, where forgotten objects
+    find a perfect home. You\u2019ll need to make items of each of our wonderful
+    objects. Use your romantic intuition, but remember, love comes in all forms,
+    and it doesn\u2019t always follow the rules."
   morningGoodSubject: Love is in the air!
   morningBadSubject: They suffer least those who suffer what they choose!
   morningGoodDate: "We\u2019ve been lucky in love indeed! Thanks to us, cupid\u2019s
