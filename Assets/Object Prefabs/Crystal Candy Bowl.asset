@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Crystal Candy Bowl
   m_EditorClassIdentifier: 
   name: Crystal Candy Bowl
-  picture: {fileID: 21300000, guid: 3db21f66af9d34f42b4cda1c68e2377f, type: 3}
+  picture: {fileID: 21300000, guid: bd7c89a6f1d934ad8bc25880c5464e13, type: 3}
   Description: "Sweet, but not too sweet! I\u2019m full of surprises. Love can be
     saccharine, but you know the real thing when you taste it. I like the finer things,
     so treat me right and you might find I give you a rush."

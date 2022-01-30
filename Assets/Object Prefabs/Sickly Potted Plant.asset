@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Sickly Potted Plant
   m_EditorClassIdentifier: 
   name: Sickly Potted Plant
-  picture: {fileID: 21300000, guid: 1357e7a0e5e5444d4ab9935fcafdd48b, type: 3}
+  picture: {fileID: 21300000, guid: 98322858fdf1e43f7b2ee0ea18a82d5c, type: 3}
   Description: "Yearning for fresh air and new adventures, I\u2019m tired of feeling
     like a wall flower. Looking for something with experience, who will know how
     to treat me right. Would you like to grow, laugh, and love together?"
