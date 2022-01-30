@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2307003547533569455}
   - component: {fileID: 1065540837}
   - component: {fileID: 400916734}
+  - component: {fileID: 9104262473180312723}
   m_Layer: 0
   m_Name: GameMaster
   m_TagString: Untagged
@@ -71,17 +72,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 387d575e9488e9c49a98543d4188e3a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bossEmail: email@email.gov
-  introSubject: welcum
-  introBody: welcummmm
-  morningSubject: god morng
-  morningBody: its literally morg
-  morningGoodDate: yesterday was neat
-  morningBadDate: yesterday was unneat
-  endOfDaySubject: go home
-  endOfDayBody: seriously leave
-  dateSubject: check out these pigeons
-  endOfGameSubject: we done
-  endOfGameBody: we done here leave the page
+  bossEmail: eros@lost&found.luv
+  introSubject: Welcome to Lost and Found!
+  introBody: "Welcome to your first day at Lost & Found Dating Agency\u2122, where
+    forgotten objects find a perfect home. Your job is to help each customer find
+    a happy match. Use your romantic intuition, but remember, love comes in all forms,
+    and it doesn\u2019t follow laws."
+  morningGoodSubject: Love is in the air!
+  morningBadSubject: They suffer least those who suffer what they choose!
+  morningGoodDate: "We\u2019ve been lucky in love indeed! Thanks to us, cupid\u2019s
+    arrow found a new target last night. Items that once were lost, have now been
+    found (some even found themselves bound!)."
+  morningBadDate: "Sadly, we weren\u2019t able to help any of our objects find love
+    yesterday. However, don\u2019t despair. Today is a new day. I\u2019m sure you\u2019ll
+    find a better love, they\u2019re all too easy to find."
+  endOfDaySubject: See you tomorrow!
+  endOfDayBody: "We hope that cupid\u2019s arrow found its targets today. Regardless,
+    it\u2019s time to leave for today. We\u2019ll see you bright and early tomorrow
+    for more matches made in heaven."
+  dateSubject: Could romance be in the air?
+  endOfGameSubject: Thank you and farewell!
+  endOfGameBody: "We\u2019ve found matches for all our lost hearts. Love blossoms
+    and abounds. Yet victims of our own success, the agency must close. However,
+    don\u2019t despair, because love can always be find in those around us. "
+  emailUI: {fileID: 0}
+  active: 0
+--- !u!114 &9104262473180312723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5161296035055058316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387d575e9488e9c49a98543d4188e3a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bossEmail: 
+  introSubject: 
+  introBody: 
+  morningGoodSubject: 
+  morningBadSubject: 
+  morningGoodDate: 
+  morningBadDate: 
+  endOfDaySubject: 
+  endOfDayBody: 
+  dateSubject: 
+  endOfGameSubject: 
+  endOfGameBody: 
   emailUI: {fileID: 0}
   active: 0
