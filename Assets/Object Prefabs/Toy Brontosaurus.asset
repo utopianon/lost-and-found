@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Toy Brontosaurus
   m_EditorClassIdentifier: 
   name: Toy Brontosaurus
-  picture: {fileID: 0}
+  picture: {fileID: 21300000, guid: d638509403ee144aea916a1e78a78032, type: 3}
   Description: "Old soul seeks something to help them feel young again. I know what
     it\u2019s like to feel cast aside, so hope to make the right one feel treasured.
     Have my head in the clouds, but my feet on the ground."
