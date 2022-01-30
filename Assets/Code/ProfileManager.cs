@@ -20,6 +20,7 @@ public class ProfileManager : MonoBehaviour
 
     private int suitorCounter;
 
+    public bool EndGame = false;
 
 
     private void PickCustomer()
@@ -52,9 +53,13 @@ public class ProfileManager : MonoBehaviour
         if (currentCustomer.match.name == currentSuitor.name)
         {
             if (objectsList.Count <= 2)
-            {
-                //end game
-                Debug.Log("end of game!!");
+            {                
+                emailManager.generateEmail(EmailType.evening);
+                emailManager.generateEmail(EmailType.morning, DateType.good);
+                emailManager.generateEmail(DateType.good, currentCustomer, currentSuitor);
+                emailManager.generateEmail(EmailType.end);
+                Debug.Log("should be ending the game!!");
+                EndGame = true;
             }
             else
             {
@@ -76,7 +81,8 @@ public class ProfileManager : MonoBehaviour
         }
 
         emailManager.displayEmail();
-        PickCustomer();
+        if (!EndGame)
+            PickCustomer();
     }
 
     public void MoveBack()
@@ -115,26 +121,9 @@ public class ProfileManager : MonoBehaviour
     void Start()
     {
         emailManager = GetComponent<EmailManager>();
+        EndGame = false;
         PickCustomer();
 
-    }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            MoveBack();
-        }
-
-        if (Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            MoveNext();
-        }
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            Match();
-        }
     }
 
 

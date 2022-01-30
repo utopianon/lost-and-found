@@ -33,6 +33,7 @@ public class EmailManager : MonoBehaviour
 
 
     public EmailDisplay emailUI;
+    private bool EndGame = false;
 
     private Queue<Email> emailQueue = new Queue<Email>();
 
@@ -77,6 +78,10 @@ public class EmailManager : MonoBehaviour
                 {
                     temp = new Email(bossEmail, endOfGameSubject, endOfGameBody, _type);
                     emailQueue.Enqueue(temp);
+
+                    Debug.Log("EndGameIsTrue");
+                    EndGame = true;
+
                 }
                 break;
             default:
@@ -99,6 +104,7 @@ public class EmailManager : MonoBehaviour
         if (currentEmail.emailType != EmailType.date)
         {
             emailUI.DisplayTextEmail(currentEmail.address, currentEmail.subject, currentEmail.body);
+
         }
         else
         {
@@ -109,11 +115,15 @@ public class EmailManager : MonoBehaviour
 
     public void PopEmail()
     {
-        if (emailQueue.Count != 0)
-            displayEmail();
-        else
+       
         {
-            emailUI.Close();
+            if (emailQueue.Count != 0)
+                displayEmail();
+            else if (!EndGame)
+            {
+                emailUI.Close();
+            }
+
         }
 
     }
@@ -121,7 +131,7 @@ public class EmailManager : MonoBehaviour
 
     private void Update()
     {
-       if (emailUI.popUpActive)
+        if (emailUI.popUpActive)
         {
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {

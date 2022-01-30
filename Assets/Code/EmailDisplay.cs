@@ -43,6 +43,13 @@ public class EmailDisplay : MonoBehaviour
 
     public void DisplayTextEmail(string address, string subject, string body)
     {
+        spriteAGood.SetActive(false);
+        spriteBGood.SetActive(false);
+        canvas.SetActive(false);
+        DateBackground.SetActive(false);
+        spriteABad.SetActive(false);
+        spriteBBad.SetActive(false);
+        DateForeground.SetActive(false);
         SetBody(body);
         SetAddress(address);
         SetSubject(subject);
