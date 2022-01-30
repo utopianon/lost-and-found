@@ -21,7 +21,8 @@ public class EmailManager : MonoBehaviour
     public string bossEmail;
     public string introSubject;
     public string introBody;
-    public string morningSubject;
+    public string morningGoodSubject;
+    public string morningBadSubject;
     public string morningGoodDate;
     public string morningBadDate;
     public string endOfDaySubject;
@@ -33,7 +34,7 @@ public class EmailManager : MonoBehaviour
 
     public EmailDisplay emailUI;
 
-    private Queue<Email> emailQueue;
+    private Queue<Email> emailQueue = new Queue<Email>();
 
     public bool active;
 
@@ -48,9 +49,9 @@ public class EmailManager : MonoBehaviour
             case EmailType.morning:
                 {
                     if (_date == DateType.bad)
-                        temp = new Email(bossEmail, morningSubject, morningBadDate, _type);
+                        temp = new Email(bossEmail, morningBadSubject, morningBadDate, _type);
                     else
-                        temp = new Email(bossEmail, morningSubject, morningGoodDate, _type);
+                        temp = new Email(bossEmail, morningGoodSubject, morningGoodDate, _type);
                     emailQueue.Enqueue(temp);
                 }
                 break;
