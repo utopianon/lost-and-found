@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Worker's Boot
   m_EditorClassIdentifier: 
   name: Worker's Boot
-  picture: {fileID: 21300000, guid: 436edc0f83d264a78a871fbe980062a9, type: 3}
+  picture: {fileID: 21300000, guid: 00bcdc3e00048497fac2d4a2da975dba, type: 3}
   Description: Been alone since I lost my partner. Tired of walking this path alone,
     so looking for something to tread the boards with me as we walk through our sunset
     years.
