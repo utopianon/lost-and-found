@@ -10,9 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d3e916bd45d0dd418092672d5a13cc7, type: 3}
-  m_Name: Gorp
+  m_Name: Toy Brontosaurus
   m_EditorClassIdentifier: 
-  name: Gorp
+  name: Toy Brontosaurus
   picture: {fileID: 0}
-  Description: 
-  match: {fileID: 11400000, guid: fc8689d9e4f6ef34a894269500b1eed2, type: 2}
+  Description: "Old soul seeks something to help them feel young again. I know what
+    it\u2019s like to feel cast aside, so hope to make the right one feel treasured.
+    Have my head in the clouds, but my feet on the ground."
+  match: {fileID: 11400000, guid: eb3c0ac432b28f84888c520272c5c832, type: 2}

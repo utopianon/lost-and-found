@@ -10,9 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6d3e916bd45d0dd418092672d5a13cc7, type: 3}
-  m_Name: Clap
+  m_Name: Map of Norwich from 1997
   m_EditorClassIdentifier: 
-  name: Clap
-  picture: {fileID: 0}
-  Description: 
+  name: Map of Norwich from 1997
+  picture: {fileID: 21300000, guid: 5afd925857bf6429db2cefdd63dd05b5, type: 3}
+  Description: Lost heart seeking to find its way home. Do you ever know exactly
+    where you are, but also feel completely lost? Looking for something to drift
+    through life with and to discover unknown destinations.
   match: {fileID: 11400000, guid: c4862b0f0a0d04fe094429dfe0c8cae2, type: 2}

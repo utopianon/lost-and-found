@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d3e916bd45d0dd418092672d5a13cc7, type: 3}
   m_Name: Taxidermized Bichon Frise 1
   m_EditorClassIdentifier: 
-  name: Taxidermied Bichon Frize
+  name: Taxidermized Bichon Frise
   picture: {fileID: 21300000, guid: 7d36391d30a75459cbcbf41f56a40515, type: 3}
-  Description: Dog?
+  Description: "Just out of a long-term relationship. Hoping for something to make
+    me feel special again. Love to be pampered! But am used to wearing a collar\u2026"
   match: {fileID: 11400000, guid: 84332532faff7554db61cf08b54ef3b4, type: 2}
