@@ -93,6 +93,6 @@ MonoBehaviour:
   endOfGameSubject: Thank you and farewell!
   endOfGameBody: "We\u2019ve found matches for all our lost hearts. Love blossoms
     and abounds. Yet victims of our own success, the agency must close. However,
-    don\u2019t despair, because love can always be find in those around us. "
+    don\u2019t despair, because love can always be found in those around us. "
   emailUI: {fileID: 0}
   active: 0
