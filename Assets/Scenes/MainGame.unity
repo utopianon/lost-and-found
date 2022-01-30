@@ -286,32 +286,6 @@ MonoBehaviour:
   endOfGameBody: 
   emailUI: {fileID: 0}
   active: 0
---- !u!21 &452870086
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/CrtPostProcess
-  m_Shader: {fileID: 4800000, guid: 6bdbe3c9db965ab439c500815bf786b4, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors: []
-  m_BuildTextureStacks: []
 --- !u!20 &519420031 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 5286515302643028994, guid: 11766f2dba6a76b43bad5cbfcb7ec7b7, type: 3}
@@ -410,6 +384,73 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6f21cc6cb0e19a489c6de0a31a170ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!21 &1152551348
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/CrtPostProcess
+  m_Shader: {fileID: 4800000, guid: 6bdbe3c9db965ab439c500815bf786b4, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
+--- !u!1 &1207488617 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5286515302643028993, guid: 11766f2dba6a76b43bad5cbfcb7ec7b7, type: 3}
+  m_PrefabInstance: {fileID: 5286515302333541501}
+  m_PrefabAsset: {fileID: 0}
+--- !u!111 &1207488618
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207488617}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 173d1043d15ae4fd79e4b8ded40d66c8, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 6a9f068bbad7c49a192ff82df77f91c6, type: 2}
+  - {fileID: 7400000, guid: 173d1043d15ae4fd79e4b8ded40d66c8, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!95 &1207488619
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1207488617}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f85a58bf59aa348588001e8698b91499, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1253212248
 GameObject:
   m_ObjectHideFlags: 0
@@ -544,32 +585,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1253212248}
   m_CullTransparentMesh: 1
---- !u!21 &1894747032
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/CrtPostProcess
-  m_Shader: {fileID: 4800000, guid: 6bdbe3c9db965ab439c500815bf786b4, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors: []
-  m_BuildTextureStacks: []
 --- !u!114 &2140482956 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 762629977480322040, guid: 538b8b9fc7ef57f46a3edfc8d25975e5, type: 3}
@@ -713,6 +728,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6005250797185084500, guid: 76ebf846241435145876f7a404a91bab, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -374.00006
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76ebf846241435145876f7a404a91bab, type: 3}
 --- !u!1001 &3653819895993642035
@@ -798,7 +817,7 @@ PrefabInstance:
     - target: {fileID: 5286515302643028995, guid: 11766f2dba6a76b43bad5cbfcb7ec7b7, type: 3}
       propertyPath: material
       value: 
-      objectReference: {fileID: 452870086}
+      objectReference: {fileID: 1152551348}
     - target: {fileID: 5286515302643028995, guid: 11766f2dba6a76b43bad5cbfcb7ec7b7, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -956,6 +975,10 @@ PrefabInstance:
     - target: {fileID: 4630602316158487566, guid: 5540cdc04ff0d704e8db306e6ca8fba8, type: 3}
       propertyPath: m_Name
       value: Email
+      objectReference: {fileID: 0}
+    - target: {fileID: 4630602316158487566, guid: 5540cdc04ff0d704e8db306e6ca8fba8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4630602316158487567, guid: 5540cdc04ff0d704e8db306e6ca8fba8, type: 3}
       propertyPath: m_RootOrder
