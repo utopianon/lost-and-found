@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d3e916bd45d0dd418092672d5a13cc7, type: 3}
+  m_Name: Taxidermized Bichon Frise 1
+  m_EditorClassIdentifier: 
+  name: Taxidermized Bichon Frise
+  picture: {fileID: 21300000, guid: ceb57c9f93abb42cdaa854baa971f216, type: 3}
+  Description: "Just out of a long-term relationship. Hoping for something to make
+    me feel special again. Love to be pampered! But am used to wearing a collar\u2026"
+  match: {fileID: 11400000, guid: 84332532faff7554db61cf08b54ef3b4, type: 2}

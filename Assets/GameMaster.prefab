@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5161296035055058316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2307003547533569455}
+  - component: {fileID: 1065540837}
+  - component: {fileID: 400916734}
+  m_Layer: 0
+  m_Name: GameMaster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2307003547533569455
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5161296035055058316}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.32368115, y: 0.45736936, z: 90.00295}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1065540837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5161296035055058316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d305b3f8e6a0c643bda9ac5f1fcdf3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CustomerProfile: {fileID: 0}
+  SuitorProfile: {fileID: 0}
+  currentCustomer: {fileID: 0}
+  currentSuitor: {fileID: 0}
+  objectsList:
+  - {fileID: 11400000, guid: 84332532faff7554db61cf08b54ef3b4, type: 2}
+  - {fileID: 11400000, guid: d11d07148163a0f42a7c94b623355af5, type: 2}
+  - {fileID: 11400000, guid: 60bda6281e5ea4275b6ce3f675321c35, type: 2}
+  - {fileID: 11400000, guid: 1c46973e573ed416391b10c8c8d44e51, type: 2}
+  - {fileID: 11400000, guid: a2d5002d1d807f747922d96f8dbd020b, type: 2}
+  - {fileID: 11400000, guid: fc8689d9e4f6ef34a894269500b1eed2, type: 2}
+  - {fileID: 11400000, guid: eb3c0ac432b28f84888c520272c5c832, type: 2}
+  - {fileID: 11400000, guid: c4862b0f0a0d04fe094429dfe0c8cae2, type: 2}
+  - {fileID: 11400000, guid: f62cf8c9a34b345d09a8bae6dd7d7f49, type: 2}
+  - {fileID: 11400000, guid: 9b6e7a1e902ae4f7e80687a5fc27c8b4, type: 2}
+  EndGame: 0
+--- !u!114 &400916734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5161296035055058316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387d575e9488e9c49a98543d4188e3a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bossEmail: eros@lost&found.luv
+  introSubject: Welcome to Lost and Found!
+  introBody: "Welcome to Lost & Found Dating Agency\u2122, where forgotten objects
+    find a perfect home. You\u2019ll need to make items of each of our wonderful
+    objects. Use your romantic intuition, but remember, love comes in all forms,
+    and it doesn\u2019t always follow the rules."
+  morningGoodSubject: Love is in the air!
+  morningBadSubject: They suffer least those who suffer what they choose!
+  morningGoodDate: "We\u2019ve been lucky in love indeed! Thanks to us, cupid\u2019s
+    arrow found a new target last night. Items that once were lost, have now been
+    found (some even found themselves bound!)."
+  morningBadDate: "Sadly, none of our objects found love last night. However, don\u2019t
+    despair. Today is a new day. I\u2019m sure you\u2019ll find them a better love,
+    it\u2019s all too easy to find."
+  endOfDaySubject: See you tomorrow!
+  endOfDayBody: "We hope that cupid\u2019s arrow found its target today. Regardless,
+    it's quitting. We\u2019ll see you bright and early tomorrow for more matches
+    made in heaven."
+  dateSubject: Could romance be in the air?
+  endOfGameSubject: Thank you and farewell!
+  endOfGameBody: "We\u2019ve found matches for all our lost hearts. Love blossoms
+    and abounds. Yet victims of our own success, the agency must close. However,
+    don\u2019t despair, because love can always be found in those around us. "
+  emailUI: {fileID: 0}
+  active: 0

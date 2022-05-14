@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d3e916bd45d0dd418092672d5a13cc7, type: 3}
+  m_Name: Neon Ski Goggles
+  m_EditorClassIdentifier: 
+  name: Neon Ski Goggles
+  picture: {fileID: 21300000, guid: ff9723bb4868e428abd2cf972a193fa6, type: 3}
+  Description: "Looking for someone who\u2019s fun and gets my adrenaline pumping.
+    After a long day, we all deserve a little apr\xE8s-ski. With a warm fire and
+    a glass of champagne, who knows where the evening goes?"
+  match: {fileID: 11400000, guid: 9b6e7a1e902ae4f7e80687a5fc27c8b4, type: 2}
